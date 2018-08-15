@@ -8,17 +8,27 @@ creatinggraph.py is basically creating a networkx graph. This graph gets its inf
 ## Getting Started
 Unless you have some library, you should install them.
 
-For databasewriting.py:
+For databasewriting.py
 
--BeautifulSoup
--psycopg2
--requests
--networkx
--re
+- BeautifulSoup
+- psycopg2
+- requests
+- networkx
+- re
 
-For creatinggraph.py:
+For creatinggraph.py
 
--json
--json_graph
--psycopg2
--networkx
+- json
+- json_graph
+- psycopg2
+- networkx
+
+You can install with pip 
+
+'''
+pip install psycopg2
+'''
+
+'''
+pip install libraryname
+'''
