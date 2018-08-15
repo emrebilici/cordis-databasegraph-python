@@ -135,8 +135,12 @@ Every index of ```callicin``` has  ```{"value": call name, "co_nodes": company l
 We can say that every call name has company list. This ```callicin``` list makes connection between "call for purposal" and which companies work that "call for purposal".
 
 
+Second I keep an array ```projeler``` which is fetching project record no from project_company table.
 
-
+```for i in projeler:``` inside this loop, I take project details and 
+```python
+project_list.append({"pro_rec_no": i[0], "value": pro_det[0][0], "totalcost": pro_det[0][3], "EUcontribution": pro_det[0][4],"call": pro_det[0][1],"topic":pro_det[0][2] ,"fundscheme": pro_det[0][5], "project_text": pro_det[0][6] })
+```
 
 
 
