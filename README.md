@@ -167,3 +167,15 @@ This code create a node, and this node has attribute like country, value...
         count = count +1
 ```
 Above code, create link between company nodes. If companies have already a link, link's weight is increasing by one.
+
+## Visualization
+Webpage work succesfully with Firefox but if you want to open with Chrome, you should use localhost.
+For create a localhost, you can use [npm http-server](https://www.npmjs.com/package/http-server).
+```
+npm install http-server -g
+```
+After installing, you should paste 
+```
+http-server [FILE PATH]
+```
+
