@@ -17,7 +17,6 @@ For databasewriting.py
 - BeautifulSoup
 - psycopg2
 - requests
-- networkx
 - re
 
 For creatinggraph.py
@@ -120,5 +119,18 @@ This is company table:
 This is projecst_company table:
 ![alt text](https://github.com/emrebilici/cordis-databasegraph-python/blob/master/projects_company.JPG)
 
+
+## Introduction to creatinggraph.py
+After writing the database, I reach the database with this python file and I create a table according to database.
+
+```G = nx.Graph()``` it creates a graph structure.
+
+First I keep an array ```call_list``` for call for purposal in the database projects table.
+
+And I use this array to classify projects according to their call for purposal.
+
+In this for loop ```for k in call_list:```, I keep an array ```callicin``` for adding later to json file.
+
+```callicin``` is 
 
 
