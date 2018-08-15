@@ -1,2 +1,4 @@
 # cordis-databasegraph-python
-Parsing cordis H2020 projects and write these to database. Then, getting informations from database and create a networkx graph. 
+This project include two python files: databasewriting.py and creatinggraph.py
+databasewriting.py is parsing the cordis projects webpage and getting informations about projects. Then, this informations is writing a database with postgresql.
+creatinggraph.py is basically creating a networkx graph. This graph gets its informations from database.
