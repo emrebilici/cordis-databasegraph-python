@@ -131,6 +131,13 @@ And I use this array to classify projects according to their call for purposal.
 
 In this for loop ```for k in call_list:```, I keep an array ```callicin``` for adding later to json file.
 
-```callicin``` is 
+Every index of ```callicin``` has  ```{"value": call name, "co_nodes": company list }```. 
+We can say that every call name has company list. This ```callicin``` list makes connection between "call for purposal" and which companies work that "call for purposal".
+
+
+
+
+
+
 
 
