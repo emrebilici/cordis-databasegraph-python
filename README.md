@@ -108,8 +108,17 @@ To avoid conflict about company in the database table, I use ```on conflict (con
 
 ```on conflict(...)``` methods allows that.
 
-Also in ```for element in parti``` loop, I insert into ```projects_company``` table for company and project relation.  
+Also in ```for element in parti``` loop, I insert the company id and project record no into ```projects_company``` table for company and project relation.  
 
+## Images from Database
+This is projects table: 
+![alt text](https://github.com/emrebilici/cordis-databasegraph-python/blob/master/projects.JPG)
+
+This is company table:
+![alt text](https://github.com/emrebilici/cordis-databasegraph-python/blob/master/company.JPG)
+
+This is projecst_company table:
+![alt text](https://github.com/emrebilici/cordis-databasegraph-python/blob/master/projects_company.JPG)
 
 
 
