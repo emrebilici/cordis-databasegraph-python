@@ -152,3 +152,17 @@ While creating a node, I use the ```G``` which I have already created.
 ```python
 G.add_node(company_id, data= company_id, value = company_name, country = company_country, activity = company_activity_type ,kackez = number_of_projects_of_company, baglanti= number_of_connections_of_company)
 ```
+This code create a node, and this node has attribute like country, value...
+```python
+        for i in com:
+            if com[count][0] != com[count2][0]:
+                if G.has_edge(com[count][0], com[count2][0]):
+                    G[com[count][0]][com[count2][0]]['weight'] += 1
+                else:
+                    G.add_edge(com[count][0], com[count2][0], weight=1)
+            else :
+                """G.add_node(com[count][0], kackez = nx.get_node_attributes(G,"kackez")[com[count][0]] + 1 )"""
+                                
+            count2 = count2 +1
+        count = count +1
+```
