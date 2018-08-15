@@ -179,3 +179,9 @@ After installing, you should paste
 http-server [FILE PATH]
 ```
 
+Error with big data.
+You should install scipy with pip. I didnt understand this error but this works:
+
+```
+pip install scipy
+```
