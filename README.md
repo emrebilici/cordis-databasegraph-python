@@ -25,10 +25,10 @@ For creatinggraph.py
 
 You can install with pip 
 
-'''
+```
 pip install psycopg2
-'''
+```
 
-'''
+```
 pip install libraryname
-'''
+```
