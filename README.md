@@ -10,15 +10,15 @@ Unless you have some library, you should install them.
 
 For databasewriting.py:
 
-*BeautifulSoup
-*psycopg2
-*requests
-*networkx
-*re
+-BeautifulSoup
+-psycopg2
+-requests
+-networkx
+-re
 
 For creatinggraph.py:
 
-*json
-*json_graph
-*psycopg2
-*networkx
+-json
+-json_graph
+-psycopg2
+-networkx
