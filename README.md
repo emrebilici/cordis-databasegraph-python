@@ -137,11 +137,18 @@ We can say that every call name has company list. This ```callicin``` list makes
 
 Second I keep an array ```projeler``` which is fetching project record no from project_company table.
 
-```for i in projeler:``` inside this loop, I take project details and 
+```for i in projeler:``` inside this loop, I take project details and assigned another list which is ```project_list```
 ```python
 project_list.append({"pro_rec_no": i[0], "value": pro_det[0][0], "totalcost": pro_det[0][3], "EUcontribution": pro_det[0][4],"call": pro_det[0][1],"topic":pro_det[0][2] ,"fundscheme": pro_det[0][5], "project_text": pro_det[0][6] })
 ```
+This ```project_list``` later is added json file.
 
+Inside the ```for i in projeler``` loop, I take that projects companies. With a nested for loop again, I take company informations.
 
+And this companies will be a node in the graph. 
 
+While creating a node, I use the ```G``` which I have already created. 
 
+```python
+G.add_node(company_id, data= company_id, value = company_name, country = company_country, activity = company_activity_type ,kackez = number_of_projects_of_company, baglanti= number_of_connections_of_company)
+```
