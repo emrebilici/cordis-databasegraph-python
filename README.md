@@ -6,6 +6,8 @@ databasewriting.py is parsing the cordis projects webpage and getting informatio
 creatinggraph.py is basically creating a networkx graph. This graph gets its informations from database.
 
 ## Getting Started
+First you should install python3.x
+
 Unless you have some library, you should install them.
 
 For databasewriting.py
@@ -23,7 +25,7 @@ For creatinggraph.py
 - psycopg2
 - networkx
 
-You can install with pip 
+You can install with pip these libraries 
 
 ```
 pip install psycopg2
